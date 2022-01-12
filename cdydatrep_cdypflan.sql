@@ -1,7 +1,7 @@
 
-drop table if exists trans.trans.cdypflan;
+drop table if exists trans.cdypflan;
 
-CREATE TABLE trans.trans.cdypflan (
+CREATE TABLE trans.cdypflan (
 	item_ix int4 NULL, n_gehalt float8 NULL, name_engl varchar(25) NULL, name_de varchar(50) NULL, "name" varchar(25) NULL,  name_lat varchar(25) NULL, art int4 NULL,
 	modell varchar(10) NULL, transk float8 NULL, algo int4 NULL, steil float8 NULL, vegdau float8 NULL, nbok float8 NULL, lnub float8 NULL, wtmax int4 NULL, wwg float8 NULL,
 	dbhmax int4 NULL, bhmax int4 NULL, matanf int4 NULL, tempanf int4 NULL, bgmax float8 NULL, dbgmax int4 NULL, cewr float8 NULL, fewr float8 NULL, czep float8 NULL DEFAULT 0.25,
